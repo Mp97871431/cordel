@@ -1,0 +1,89 @@
+
+*{
+    padding: 0px;
+    margin: 0px;
+}
+
+
+html body{
+    background-color: white;
+    min-height: 100vh;
+
+}
+
+header{
+    background-color: black;
+    color: white;
+    text-align: center;
+    font-size: 3vw;
+}
+
+header h1{
+    padding-top: 50px;
+    font-variant: small-caps;
+    font-family: var(--fonte2);
+}
+header p{
+    padding-bottom: 50px;
+}
+
+header > p > a{
+     text-decoration: none;
+    font-weight: bolder; 
+}
+
+a:hover{
+   text-decoration: underline;
+}
+
+section{
+    padding-top: 10vh;
+    padding-bottom: 10vh;
+    padding-left: 30px;
+    line-height: 2em;
+    font-family: var(--fonte3);
+    font-size: 3vw;
+}
+
+section.norma{
+    background-color: white;
+    color: black;
+}
+
+section.imagem{
+    background-color: rgb(70, 69, 69);
+    color: white;
+    box-shadow: inset 6px 6px 13px 0px rgba(0, 0, 0, 0.623) ;
+    background-attachment: fixed;
+    
+}
+
+section > p{
+    padding-bottom: 2em;
+}
+
+section.imagem > p{
+    background-color: rgba(0, 0, 0, 0.527);
+    display: inline-block;
+    padding: 5px;
+    text-shadow: 2px 2px 2px 0px black;
+}
+
+section#im01{
+    background-image: url('background001.jpg');
+    background-position: right center;
+    background-size: cover;
+}
+
+section#im02{
+    background-image: url('background002.jpg');
+    background-position: right center;
+    background-size: cover;
+}
+
+footer{
+    background-color: black;
+    color: white;
+    text-align: center;
+    font-size: 3vw;
+}
